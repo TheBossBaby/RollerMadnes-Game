@@ -23,9 +23,8 @@ GameObject:
   - component: {fileID: 54410812469415202}
   - component: {fileID: 65524880938737586}
   - component: {fileID: 135205187268764076}
-  - component: {fileID: 114093719542601426}
   - component: {fileID: 114194311240260932}
-  - component: {fileID: 96695687894534302}
+  - component: {fileID: 96941329654743318}
   m_Layer: 0
   m_Name: CoinMadeByMe
   m_TagString: Untagged
@@ -73,7 +72,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000012, y: 2, z: 0.27844605}
   m_Center: {x: 0.00000059604645, y: -0.000000059604645, z: 0.0000006109476}
---- !u!96 &96695687894534302
+--- !u!96 &96941329654743318
 TrailRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 1
@@ -108,25 +107,25 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 5
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.2
+    widthMultiplier: 0.3
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0.0028572083
-        value: 0.9909096
+        time: 0
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 0
+      m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.903, g: 0.797, b: 0.8608758, a: 1}
+      key0: {r: 0.9843137, g: 1, b: 0, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -160,19 +159,6 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 1
---- !u!114 &114093719542601426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1524250798026970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82d7ea8bfea894ee78c90c91282c295e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeOut: 10
-  detachChildren: 0
 --- !u!114 &114194311240260932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,7 +199,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: fed4e78bda2b3de45954637fee164b8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
